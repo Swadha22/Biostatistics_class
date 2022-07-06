@@ -1,4 +1,21 @@
-# Homework-1 
+# Homework-1 (Due on Thursday, March 1st, 2018)
+
+      Note, some sites in chromosome 21 are not bi-allelic SNPs. Please only use biallelic
+      SNPs. These are sites where the entry in the REF column is a single letter in this set
+      [A,T,C,G] AND the entry in the ALT column is also a single letter in this set [A,T,C,G]
+      
+      1. Compute the number of segregating sites per population for chromosome 21.
+        Plot the results. Does the trend follow the trends from Figure 1b from the 1000 Genomes paper?
+      
+      2. Show with simulations, that if you have 100 Poisson independent random
+      variables with means mu1, mu2,…,mu100 (you pick values for the mus), then
+      the sum N1 + N2 + N3 + … + N100 is Poisson with parameter (mu1 + mu2 +…
+      + mu100).
+      
+      3. Identify the singletons in the global sample (in the row, only one individual
+      is 0|1 or 1|0 and everyone else is 0|0). From that set, find the number of
+      singletons per genome per population. Do a scatter plot similarly
+
 
 ## Question-1: Compute the number of segregating sites 
 
