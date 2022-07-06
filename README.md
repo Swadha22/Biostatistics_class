@@ -18,6 +18,8 @@
     After finishing the loop, the total number of Segregating sites were printed along with its population in a file.
     After plotting the segregation sites, I found the plot followed same trend as figure 1-b in 1000 genome paper.
 
+![Number of segrigating sites per population in Chr-2](fig1.jpg)
+
 ## The code which I wrote: 
 
   ###### first hash
@@ -89,6 +91,10 @@
     These above steps was iterated 10,000 times over a loop
     Two Histogram plots were made each showing distribution of means and Poisson independent random variables. 
     Both of the histograms were then overlapped to see the differences
+    
+
+![Fig-2](fig2.jpg)
+    
 
   ### This is the code I wrote:
   
@@ -194,7 +200,7 @@
             g.close()
 
   ### Step-4 To Plot the total number of singletons in each population
-        Plot is on the next page:
+![total number of singletons in each population](fig3.jpg)
       
       
   ### This is the code used to make the plot:
